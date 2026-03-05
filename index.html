@@ -7,35 +7,27 @@
   body {
     margin: 0;
     padding: 0;
-    /* This perfectly centers the video inside the Google Sites box */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: rgb(219,224,241); /* Matches your site's background */
+    background: rgb(219,224,241); /* Matches your site */
     overflow: hidden;
   }
 
   video {
-    /* Responsive sizing */
     width: 100%;
     max-width: 800px; 
-    
-    /* Forces the perfect 4:3 ratio */
     aspect-ratio: 4 / 3; 
-    
-    /* Keeps the video perfectly contained */
     object-fit: contain; 
-    
-    /* Optional rounded corners */
     border-radius: 8px; 
   }
 </style>
 </head>
 <body>
 
-  <video src="https://raw.githubusercontent.com/RadwaMohsen222/to-start/main/start.mp4" autoplay muted loop playsinline controls></video>
+  <video src="start.mp4" autoplay muted loop playsinline controls></video>
 
 </body>
 </html>
