@@ -13,30 +13,29 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: rgb(219,224,241); /* Matching your site's background */
+    background: rgb(219,224,241); /* Matches your site's background */
     overflow: hidden;
   }
 
   video {
-    /* This makes it responsive but prevents it from getting TOO huge on a PC */
+    /* Responsive sizing */
     width: 100%;
     max-width: 800px; 
     
-    /* This forces the perfect 4:3 ratio no matter what */
+    /* Forces the perfect 4:3 ratio */
     aspect-ratio: 4 / 3; 
     
-    /* Keeps the video perfectly contained inside its box */
+    /* Keeps the video perfectly contained */
     object-fit: contain; 
     
-    /* Optional: Adds a tiny rounded corner to match modern web design. 
-       Change to 0px if you want sharp square corners! */
+    /* Optional rounded corners */
     border-radius: 8px; 
   }
 </style>
 </head>
 <body>
 
-  <video src="start.mp4" autoplay muted loop playsinline controls></video>
+  <video src="https://raw.githubusercontent.com/RadwaMohsen222/to-start/main/start.mp4" autoplay muted loop playsinline controls></video>
 
 </body>
 </html>
